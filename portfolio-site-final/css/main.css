@@ -1,0 +1,253 @@
+/*****Base****/
+.sans-serif {
+  font-family: 'jost', sans-serif;
+
+  font-family: 'montserrat', sans-serif;
+}
+.script-cursive {
+ font-family: 'luxus-Brut', script-cursive;
+}
+/* analogous color scheme, mauve colors: #D6A5BE (mauve), #5D143A (dark mauve), #DD68A4 (bright pink mauve)*/
+
+
+
+/*****grid****/
+
+.body {
+  margin:auto;
+  clear:both;
+}
+
+.clear-fix {
+   clear:both;
+   width:100%;
+}
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float:left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/*****nav****/
+/*should be in upper right hand corner*/
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #D6A5BE;
+    font-family: 'jost', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-left: 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/*****header****/
+/*below, not aligned with, nav bar, aligned left side */
+header {
+    background: #FFFFFF;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    line-height: 25px;
+}
+
+header h1 {
+    color:#5D143A;
+    font-family: 'jost', sans-serif;
+    font-size:30px;
+    font-weight: 500;
+}
+/* span is decorative */
+header h1 span {
+    color:#5D143A;
+    font-family: 'luxus-brut', cursive;
+    font-size: 60px;
+}
+
+header h2 {
+    color:#DD68A4;
+    font-family: 'jost', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+/*****about****/
+/* colored block with portrait, everything should be centered */
+#about {
+  background: #D6A5BE;
+  height: inherit;
+}
+
+#about h2 {
+  color: #FFFFFF;
+  font-family: 'jost', sans-serif;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#about h3 {
+  color: #FFFFFF;
+  font-family: 'jost', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+#about img {
+  border: 3px solid #ffffff;
+  margin-left: 455px;
+  width: 290px;
+}
+
+#about p {
+  color: #FFFFFF;
+  font-family: 'montserrat',sans-serif;
+  margin-left: 300px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 600px;
+}
+
+/*****work****/
+/* portfolio section--three different sections highlighting: stationery, web design, and branding */
+#work .third-width {
+  margin: auto;
+  padding-bottom: 50px;
+  width:400px;
+}
+
+#work h2{
+  color:#DD68A4;
+  font-family: 'jost', sans-serif;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#work h3{
+  color:#5D143A;
+  font-family: 'jost', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#work img {
+  margin-left: 50px;
+  width:300px;
+}
+
+#work p{
+  color:#5D143A;
+  font-family: 'montserrat', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/*****contact****/
+/* block colored background--three columns: number and email, follow icons, invitation to meet*/
+#contact {
+  background-color: #5D143A;
+}
+
+#contact .third-width {
+  margin: auto;
+  width:400px;
+}
+
+#contact h2 {
+  color:#FFFFFF;
+  font-family: 'jost', sans-serif;
+  font-weight:400;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#contact h3 {
+  color:#FFFFFF;
+  font-family: 'jost', sans-serif;
+  font-weight:400;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#contact p {
+  color:#FFFFFF;
+  font-family: 'montserrat', sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+#contact a{
+  text-decoration: none;
+}
+
+#contact ul {
+  color: #FFFFFF;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 125px;
+}
+
+#contact ul li img {
+  height:30px;
+  padding:10px;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+/*****invite*****/
+
+#invite h2 {
+  font-family: 'jost', sans-serif;
+  padding-left: 400px;
+  color: #DD68A4;
+  text-transform: uppercase;
+}
+
+
+#invite img {
+  width: 300px;
+  margin-left: 50px;
+  padding-bottom: 90px;
+}
+
+/*****web*****/
+
+#web h2 {
+  font-family: 'jost', sans-serif;
+  padding-left: 400px;
+  color: #DD68A4;
+  text-transform: uppercase;
+}
+
+#web img {
+  width: 500px;
+  margin-left: 50px;
+  padding-bottom: 90px;
+}
